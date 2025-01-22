@@ -142,7 +142,6 @@ public class Store {
 
     // function for creating seller 
     public static void createSeller(){
-        String typeOfUser;
         typeOfUser = "Seller";
         Scanner sc = new Scanner(System.in);
         Seller this_seller = new Seller();
