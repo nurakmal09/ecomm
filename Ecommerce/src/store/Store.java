@@ -134,7 +134,7 @@ public class Store {
         current.setUserId(sc.nextLine());
         System.out.println("What is your password?");
         current.setPassword(sc.nextLine());
-        if(current.verifyUser() == true){
+        if(current.verifyUser()){
             System.out.println("User verified!");
         }
         return current;
@@ -151,7 +151,7 @@ public class Store {
         this_seller.setUserId(sc.nextLine());
         System.out.println("What is your password?");
         this_seller.setPassword(sc.nextLine());
-        if(this_seller.verifyUser() == true){
+        if(this_seller.verifyUser()){
             System.out.println("Seller verified!");
         }
     }
@@ -167,7 +167,7 @@ public class Store {
         this_admin.setUserId(sc.nextLine());
         System.out.println("What is your password?");
         this_admin.setPassword(sc.nextLine());
-        if(this_admin.verifyUser() == true){
+        if(this_admin.verifyUser()){
             System.out.println("Admin verified!");
         }
     }
