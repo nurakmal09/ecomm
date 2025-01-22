@@ -157,7 +157,6 @@ public class Store {
 
      // function for creating admin 
     public static void createAdmin(){
-        String typeOfUser;
         typeOfUser = "Admin";
         Admin this_admin = new Admin();
         Scanner sc = new Scanner(System.in);
